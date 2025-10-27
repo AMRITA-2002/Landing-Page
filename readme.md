@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-![](assets/banner.jpg)
+![](images/banner.jpg)
 
 > **A modern, responsive landing page for a fitness center with member registration, contact information, and navigation to key services.**
 
@@ -691,5 +691,6 @@ document.querySelector('form').addEventListener('submit', function(e) {
 </div>
 
 ---
+
 
 **Last Updated**: October 2025 | **Version**: 1.0.0 |
