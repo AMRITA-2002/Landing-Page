@@ -1,0 +1,154 @@
+body {
+    background-image: url("gym_bckgrnd\ img.jpg");
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg); */
+
+}
+
+.left {
+    color: aliceblue;
+    /* border: 2px solid cyan; */
+    width: 170px;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    padding: 10px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left img {
+    width: 34px;
+    padding: -5px 10px;
+}
+
+.mid {
+    color: rgb(245, 249, 253);
+    border: 2px solid transparent;
+    background-color: transparent;
+    width: 700;
+    margin: 10px 100px;
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    padding: 10px 80px;
+}
+
+.right {
+    margin-bottom: 10px;
+    color: aliceblue;
+    border: transparent;
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    top: 10px;
+    padding: 20px 20px;
+}
+
+.navbar li a {
+    color: cyan;
+    display: inline-block;
+    margin: 3px 3px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar li {
+    text-align: center;
+    float: left;
+    list-style: none;
+    padding: 10px 30px;
+    /* margin: 13px 3px; */
+}
+
+.navbar li a:hover {
+    /* background-color: aliceblue; */
+    color: snow;
+    /* border: 8px solid snow; */
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    transition-duration: 0.2ms;
+    /* background-color: whitesmoke; */
+    text-decoration: underline;
+}
+
+#head {
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: large;
+    font-style: italic;
+}
+
+.contact li {
+    /* padding: 200px auto; */
+    margin-bottom: 16px;
+}
+
+.contact li :hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#body {
+    /* border: 2px solid cyan;  */
+    margin-top: 130px;
+}
+
+.container {
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    outline: none;
+    /* margin-bottom: 20px; */
+}
+
+.form-group input {
+    margin-bottom: 10px;
+    width: 240px;
+    /* text-align: center; */
+    display: block;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    /* border: 2px solid black; */
+}
+
+.btn {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 255px;
+    height: 37px;
+}
+
+.btn:hover {
+    /* text-decoration: underline;  */
+    cursor: pointer;
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+    transition: 1s ease-in-out;
+    text-decoration: none;
+
+}
+
+.form-group input:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.reg {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translateY(+70%);
+}
